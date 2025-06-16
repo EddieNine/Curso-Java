@@ -1,6 +1,6 @@
 package LeetCode.TwoSum.LeetCode75;
 
-public class Solution {
+public class MergeStringsAlternately {
 
     // method que vai fazer a junção alternada de letras de duas palavras
     // Este method NÃO é static, então precisa de um objeto da classe para ser usado
@@ -35,7 +35,7 @@ public class Solution {
     // method principal que roda quando o programa é executado
     public static void main(String[] args) {
         // Criamos um objeto da classe MergeStrings para usar o method mergeAlternately
-        Solution obj = new Solution();
+        MergeStringsAlternately obj = new MergeStringsAlternately();
 
         // Chamamos o method passando duas palavras e mostramos o resultado no terminal
         System.out.println(obj.mergeAlternately("abc", "pqr"));   // Saída: apbqcr
